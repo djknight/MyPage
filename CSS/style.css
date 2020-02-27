@@ -1,0 +1,50 @@
+    body {
+        margin: 0px;
+        text-align: center;
+    }
+    
+    h1 {
+        margin-top: 0px;
+        font-family: 'Bad Script';
+    }
+    
+    .topPara {
+        font-family: 'Fondamento';
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'EB Garamond';
+    }
+    
+    .top-Container {
+        background-color: aliceblue;
+        position: relative;
+        padding-top: 100px;
+    }
+    
+    .middle-Container {
+        background-color: aquamarine;
+        position: relative;
+    }
+    
+    .bottom-Container {
+        background-color: cadetblue;
+        position: relative;
+    }
+    
+    .topCloud {
+        position: absolute;
+        right: 300px;
+        top: 50px;
+    }
+    
+    .bottomCloud {
+        position: absolute;
+        left: 300px;
+        bottom: 200px;
+    }
+    
+    .mount {
+        position: auto;
+    }
