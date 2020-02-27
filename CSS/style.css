@@ -17,19 +17,19 @@
         font-family: 'EB Garamond';
     }
     
-    .top-Container {
-        background-color: aliceblue;
+    .top-container {
+        background-color: rgb(204, 229, 250);
         position: relative;
         padding-top: 100px;
     }
     
-    .middle-Container {
-        background-color: aquamarine;
+    .middle-container {
+        background-color: rgb(186, 250, 229);
         position: relative;
     }
     
-    .bottom-Container {
-        background-color: cadetblue;
+    .bottom-container {
+        background-color: rgb(148, 240, 243);
         position: relative;
     }
     
