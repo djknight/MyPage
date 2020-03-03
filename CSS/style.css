@@ -1,5 +1,5 @@
     body {
-        margin: 0px;
+        margin: 0px 0px 0px 0px;
         text-align: center;
         font-family: 'EB Garamond';
     }
@@ -7,19 +7,24 @@
     h1 {
         color: #66BFBF;
         font-size: 5rem;
+        line-height: 1;
         margin: 50px auto 0 auto;
         font-family: 'Bad Script';
-        
+        font-weight: normal;
     }
-    h2{
+    
+    h2 {
         color: #66BFBF;
         font-size: 2.5rem;
         font-family: 'EB Garamond';
+        font-weight: normal;
     }
-    h3{
-        color:#11999E;
+    
+    h3 {
+        color: #11999E;
         font-family: 'EB Garamond';
     }
+    
     .topPara {
         font-family: 'Fondamento';
         text-align: center;
@@ -28,11 +33,30 @@
     p {
         font-family: 'EB Garamond';
     }
-    .mypic{
+    
+    .mypic {
         border-radius: 25%;
         width: 15em;
         height: 15em;
+        margin-top: 30px;
     }
+    
+    .codepic {
+        border-radius: 25%;
+        width: 35%;
+        float: right;
+        margin-right: 30px;
+    }
+    
+    .Elecpic {
+        border-radius: 25%;
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+        /* width: 12em;
+        height: 8em; */
+    }
+    
     .top-container {
         background-color: rgb(204, 229, 250);
         position: relative;
@@ -40,13 +64,23 @@
     }
     
     .middle-container {
-        background-color: rgb(186, 250, 229);
+        /* background-color: rgb(186, 250, 229); */
         position: relative;
     }
     
     .bottom-container {
         background-color: rgb(148, 240, 243);
         position: relative;
+        /* line-height: 50px; */
+        /* margin-bottom: 0px; */
+        padding-bottom: 3%;
+    }
+    
+    .skill-row {
+        width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+        line-height: 2;
     }
     
     .topCloud {
@@ -63,4 +97,32 @@
     
     .mount {
         position: auto;
+    }
+    
+    hr {
+        border: 8px dotted #eaf6f6;
+        border-style: none none dotted;
+        color: #fff;
+        background-color: #fff;
+        width: 10%;
+    }
+    
+    .btn {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #11999E;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+    .footer-link {
+        font-size: 1rem;
+        color: #11999E;
     }
