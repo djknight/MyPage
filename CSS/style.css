@@ -135,7 +135,8 @@ hr {
     background-color: #004954;
 }
 
-.link-btn {
+
+/* .link-btn { ------- button for a div class another page..
     display: inline-block;
     border-radius: 8px;
     background-color: #11999E;
@@ -153,7 +154,7 @@ hr {
 .link-btn:hover {
     background: linear-gradient(to bottom, #004954 5%, ##1199 100%);
     background-color: #004954;
-}
+} */
 
 .footer-link {
     font-size: 1rem;
