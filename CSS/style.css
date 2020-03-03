@@ -53,8 +53,6 @@
         width: 25%;
         float: left;
         margin-right: 30px;
-        /* width: 12em;
-        height: 8em; */
     }
     
     .top-container {
@@ -71,8 +69,6 @@
     .bottom-container {
         background-color: rgb(148, 240, 243);
         position: relative;
-        /* line-height: 50px; */
-        /* margin-bottom: 0px; */
         padding-bottom: 3%;
     }
     
