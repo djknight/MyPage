@@ -90,7 +90,7 @@ hr {
 .bottom-container {
     background-color: rgb(204, 229, 250);
     position: relative;
-    padding: 50px 0 20px;
+    padding: 50px 0 10px;
 }
 
 .skill-row {
@@ -168,12 +168,14 @@ hr {
     color: #eaf6f6;
 }
 
-.contact-me {
+
+/* .contact-me {
     width: 40%;
     margin: 40px auto 60px;
-}
+} */
 
 .copyright {
     color: #eaf6f6;
     font-size: 0.75rem;
+    padding: 0px 0px;
 }
