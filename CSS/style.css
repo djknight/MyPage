@@ -55,6 +55,8 @@ hr {
     width: 15em;
     height: 15em;
     margin-top: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .codepic {
@@ -62,6 +64,8 @@ hr {
     width: 35%;
     float: right;
     margin-right: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Elecpic {
@@ -69,6 +73,8 @@ hr {
     width: 25%;
     float: left;
     margin-right: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .top-container {
@@ -116,6 +122,8 @@ hr {
     right: 300px;
     top: 60px;
     width: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 .bottomCloud {
@@ -123,12 +131,16 @@ hr {
     left: 350px;
     bottom: 300px;
     width: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 .mount {
     position: relative;
     position: auto;
     width: 35%;
+    max-width: 100%;
+    height: auto;
 }
 
 .btn {
