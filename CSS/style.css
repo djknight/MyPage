@@ -115,16 +115,20 @@ hr {
     position: absolute;
     right: 300px;
     top: 60px;
+    width: 10%;
 }
 
 .bottomCloud {
     position: absolute;
     left: 350px;
     bottom: 300px;
+    width: 10%;
 }
 
 .mount {
+    position: relative;
     position: auto;
+    width: 50%;
 }
 
 .btn {
