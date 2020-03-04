@@ -20,7 +20,7 @@ h2 {
     font-size: 2.5rem;
     font-family: 'EB Garamond';
     font-weight: normal;
-    /* padding: 10px; */
+    text-decoration: none;
 }
 
 h3 {
@@ -93,6 +93,18 @@ hr {
     padding: 50px 0 10px;
 }
 
+.skill-link {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'EB Garamond';
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.skill-link:hover {
+    color: black;
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
@@ -136,7 +148,9 @@ hr {
 }
 
 
-/* .link-btn { ------- button for a div class another page
+/* ------- button for a div class another page */
+
+.link-btn {
     display: inline-block;
     border-radius: 8px;
     background-color: #11999E;
@@ -154,7 +168,7 @@ hr {
 .link-btn:hover {
     background: linear-gradient(to bottom, #004954 5%, ##1199 100%);
     background-color: #004954;
-} */
+}
 
 .footer-link {
     font-size: 1rem;
